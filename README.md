@@ -5,14 +5,12 @@
 * 2. Model Validation
 * 3. Case Study Prediction
 
-### 1.	For Feature/Embedding Generation, the input files are too large for the pre-processing to be directly uploaded to GitHub; we will upload them to our server in the future.
-
-### 2.	The Model Validation needs features/embeddings generated above and also constructed embedding dataset to train/validate the models.
-
-### 3.	For the Case Study prediction, we already built/trained the models. Users need to generate corresponding features from your case and then run the source code to get the corresponding predictive results. 
+* 1.	For Feature/Embedding Generation, the input files are too large for the pre-processing to be directly uploaded to GitHub; we will upload them to our server in the future.
+* 2.	The Model Validation needs features/embeddings generated above and also constructed embedding dataset to train/validate the models.
+* 3.	For the Case Study prediction, we already built/trained the models. Users need to generate corresponding features from your case and then run the source code to get the corresponding predictive results. 
 
 
-### We build the code based on the folder of features/embeddings.
+#### We build the code based on the folder of features/embeddings.
 
 #### folder name *files descriptions
 #### 0_drug_feature_pool  *Drug feature files from different feature extractors
