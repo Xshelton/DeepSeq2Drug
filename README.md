@@ -20,14 +20,14 @@
 #### constructed embedding dataset *using drug/virus embedding and constructed dataset to build constructed embedding dataset
 
 #### Tips for conducting a new case study:
-Step1:
+* Step1:  
 Run Step2.py to generate constructed embedding dataset. (if it existed, skip this step)
-Step2:
+* Step2:  
 Run the Feature extractor to generate sequence-based features/embeddings and NLP-base embeddings.
-Step3:
-Put results of Step2 into 0_case_study_feature_pool
-Step4:
+* Step3:  
+Put results of Step2 into 0_case_study_feature_pool 
+* Step4:  
 Run Step4.py to generate corresponding models( using files from 0_drug_feature_pool/0_virus_feature_pool/ constructed embedding dataset)
-Step 5:
+* Step 5:  
 Running step7.py/step8.py to generate scores for the specific cases will generate a folder named “{your new case}Case_study_prediction”.
 Put “DBID_and_name(case).csv” into the folder and run “Results_extractor.py.”, it will generate “{your new case}_all_score_FTW_top20.csv”, showing the top-20 predictive results of DeepSeq2Drug.
