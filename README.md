@@ -19,11 +19,20 @@
 #### constructed dataset *Pair-wised relations between virus and drugs (original dataset pairs+sampling negative pairs)
 #### constructed embedding dataset *using drug/virus embedding and constructed dataset to build constructed embedding dataset
 
+#### How to validate the quality of embedding:
+put drug features/embedding into the 0_drug_feature_pool
+put virus features/embedding into the 0_virus_feature_pool
+download constructed dataset/
+run Step2_generate_ 5folds_ files.py
+run Step3- RF-5folds-validate-upload.py 
+it will automatically generate all the folders needed for trainning and validation.
+
 #### Tips for conducting a new case study:
 * Step1:  
 Run Step2.py to generate constructed embedding dataset. (if it existed, skip this step)
 * Step2:  
 Run the Feature extractor to generate sequence-based features/embeddings and NLP-base embeddings.
+(or you can download our generated embedding files)
 * Step3:  
 Put results of Step2 into 0_case_study_feature_pool 
 * Step4:  
