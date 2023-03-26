@@ -22,6 +22,8 @@
 put drug features/embedding into the 0_drug_feature_pool  
 put virus features/embedding into the 0_virus_feature_pool  
 Download original dataset  
+original dataset, features samples can be download at:
+https://drive.google.com/file/d/1mbp3d88mtBzdo2hVF5E7mVvgJV7haLZd/view?usp=sharing
 run Step1-dataset_construct.py to generate constructed dataset/  
 or download constructed dataset/   
 run Step2_generate_ 5folds_files.py
