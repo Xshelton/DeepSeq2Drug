@@ -19,13 +19,13 @@
 #### Embedding dataset *using drug/virus embedding and constructed dataset to build constructed embedding dataset
 
 #### How to validate the quality of embedding:
-put drug features/embedding into the 0_drug_feature_pool
-put virus features/embedding into the 0_virus_feature_pool
-Download original dataset
-run Step1-dataset_construct.py to generate constructed dataset/
-or download constructed dataset/ 
+put drug features/embedding into the 0_drug_feature_pool  
+put virus features/embedding into the 0_virus_feature_pool  
+Download original dataset  
+run Step1-dataset_construct.py to generate constructed dataset/  
+or download constructed dataset/   
 run Step2_generate_ 5folds_files.py
-run Step3- RF-5folds-validate-upload.py 
-it will automatically generate all the folders needed for trainning and validation.
+run Step3- RF-5folds-validate-upload.py   
+it will automatically generate all the folders needed for trainning and validation.  
 
 
