@@ -1,5 +1,10 @@
 # DeepSeq2Drug
-## This is the code repository of DeepSeq2drug.
+## This is the Data Hub of DeepSeq2drug.
+we provide a server :
+http://deepseq2drug.cs.cityu.edu.hk/
+and a backup server:
+http://47.242.237.10/
+For More information 
 
 ## It contains three main parts. 
 * 1. Feature/Embedding Generation
